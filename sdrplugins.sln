@@ -1,0 +1,67 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDRSharp.Plugin.FrequencyManager", "FrequencyManager\SDRSharp.Plugin.FrequencyManager.csproj", "{63F197AA-A7CC-45B5-A0A1-F115CBF89498}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDRSharp.Plugin.WavRecorder", "WavRecorder\SDRSharp.Plugin.WavRecorder.csproj", "{EC625CDB-0D44-4D8A-8581-3C0DAB4D2EDA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDRSharp.Plugin.NoiseBlanker", "NoiseBlanker\SDRSharp.Plugin.NoiseBlanker.csproj", "{E1AA63BE-0758-49AE-B072-EDC47439B87E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDRSharp.Plugin.ZoomFFT", "ZoomFFT\SDRSharp.Plugin.ZoomFFT.csproj", "{41C6CC2E-5F1D-4BFC-9676-381AD488FCD6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDRSharp.Plugin.BandPlan", "BandPlan\SDRSharp.Plugin.BandPlan.csproj", "{9CFEE824-EFEA-4CB6-8746-23AB52EF3CF5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDRSharp.Plugin.SNRLogger", "SNRLogger\SDRSharp.Plugin.SNRLogger.csproj", "{05176F51-C4A5-4533-A744-31D0AA2630E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDRSharp.Plugin.Diagnostics", "Diagnostics\SDRSharp.Plugin.Diagnostics.csproj", "{1647284A-64C1-46FF-BC0A-5B8E43B5489F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63F197AA-A7CC-45B5-A0A1-F115CBF89498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63F197AA-A7CC-45B5-A0A1-F115CBF89498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63F197AA-A7CC-45B5-A0A1-F115CBF89498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63F197AA-A7CC-45B5-A0A1-F115CBF89498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC625CDB-0D44-4D8A-8581-3C0DAB4D2EDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC625CDB-0D44-4D8A-8581-3C0DAB4D2EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC625CDB-0D44-4D8A-8581-3C0DAB4D2EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC625CDB-0D44-4D8A-8581-3C0DAB4D2EDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1AA63BE-0758-49AE-B072-EDC47439B87E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1AA63BE-0758-49AE-B072-EDC47439B87E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1AA63BE-0758-49AE-B072-EDC47439B87E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1AA63BE-0758-49AE-B072-EDC47439B87E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41C6CC2E-5F1D-4BFC-9676-381AD488FCD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41C6CC2E-5F1D-4BFC-9676-381AD488FCD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41C6CC2E-5F1D-4BFC-9676-381AD488FCD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41C6CC2E-5F1D-4BFC-9676-381AD488FCD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CFEE824-EFEA-4CB6-8746-23AB52EF3CF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CFEE824-EFEA-4CB6-8746-23AB52EF3CF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CFEE824-EFEA-4CB6-8746-23AB52EF3CF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CFEE824-EFEA-4CB6-8746-23AB52EF3CF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05176F51-C4A5-4533-A744-31D0AA2630E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05176F51-C4A5-4533-A744-31D0AA2630E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05176F51-C4A5-4533-A744-31D0AA2630E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05176F51-C4A5-4533-A744-31D0AA2630E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1647284A-64C1-46FF-BC0A-5B8E43B5489F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1647284A-64C1-46FF-BC0A-5B8E43B5489F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1647284A-64C1-46FF-BC0A-5B8E43B5489F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1647284A-64C1-46FF-BC0A-5B8E43B5489F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7ECEC65D-47BE-487D-BC90-9BC261B61569}
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal
